@@ -10,6 +10,7 @@ Please forgive us for interrupting your review work. We would like to report two
 performed with Ours and baseline. In each round, 5 objects are randomly selected and placed on the table. Due to the limitation of communication, the decision end and the robot arm interact fragmentarily (compliant with our FIMDP setting).  Thus, Multi-step decision making based on current observations is required to ensure completion efficiency. 
     - Our method (MARS) is combined with imitation learning (IL, a grasping baseline) to improve grasping performance (following table). Performance is measured using the following metrics averaged over 15 simulation rounds: 1) Grasp success rate (GSR), the ratio of success grasp executions; and 2) Declutter rate (DR), the average ratio of objects removed. 
     - Further, we share [two videos comparing our method to the baseline on the same task](https://anonymous.4open.science/r/ICLRreb-EB74/). Comparing the two videos, it is found that our method works more smoothly, and the task completion rate is higher under the FIMDP setting.
+      
 |Method|GSR(\%)|DR(\%)|
 | :- | :- | :- |
 |Ours + IL|76.2|82.9|
